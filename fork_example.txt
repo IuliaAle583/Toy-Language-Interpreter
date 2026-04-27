@@ -1,0 +1,318 @@
+Id: 5
+ExeStack:
+[(Ref(int) v; (new(v, 10); (fork((wH(v, 20); Print(Child wrote 20))); (wH(v, 30); Print(rH(v))))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 5
+ExeStack:
+[Ref(int) v, (new(v, 10); (fork((wH(v, 20); Print(Child wrote 20))); (wH(v, 30); Print(rH(v)))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 5
+ExeStack:
+[Ref(int) v, (new(v, 10); (fork((wH(v, 20); Print(Child wrote 20))); (wH(v, 30); Print(rH(v)))))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 5
+ExeStack:
+[(new(v, 10); (fork((wH(v, 20); Print(Child wrote 20))); (wH(v, 30); Print(rH(v)))))]
+SymTable:
+{v=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 5
+ExeStack:
+[(new(v, 10); (fork((wH(v, 20); Print(Child wrote 20))); (wH(v, 30); Print(rH(v)))))]
+SymTable:
+{v=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 5
+ExeStack:
+[new(v, 10), (fork((wH(v, 20); Print(Child wrote 20))); (wH(v, 30); Print(rH(v))))]
+SymTable:
+{v=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 5
+ExeStack:
+[new(v, 10), (fork((wH(v, 20); Print(Child wrote 20))); (wH(v, 30); Print(rH(v))))]
+SymTable:
+{v=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 5
+ExeStack:
+[(fork((wH(v, 20); Print(Child wrote 20))); (wH(v, 30); Print(rH(v))))]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 10
+
+====
+Id: 5
+ExeStack:
+[(fork((wH(v, 20); Print(Child wrote 20))); (wH(v, 30); Print(rH(v))))]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 10
+
+====
+Id: 5
+ExeStack:
+[fork((wH(v, 20); Print(Child wrote 20))), (wH(v, 30); Print(rH(v)))]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 10
+
+====
+Id: 5
+ExeStack:
+[fork((wH(v, 20); Print(Child wrote 20))), (wH(v, 30); Print(rH(v)))]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 10
+
+====
+Id: 5
+ExeStack:
+[(wH(v, 30); Print(rH(v)))]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 10
+
+====
+Id: 6
+ExeStack:
+[(wH(v, 20); Print(Child wrote 20))]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 10
+
+====
+Id: 5
+ExeStack:
+[(wH(v, 30); Print(rH(v)))]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 10
+
+====
+Id: 6
+ExeStack:
+[(wH(v, 20); Print(Child wrote 20))]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 10
+
+====
+Id: 5
+ExeStack:
+[wH(v, 30), Print(rH(v))]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 10
+
+====
+Id: 6
+ExeStack:
+[wH(v, 20), Print(Child wrote 20)]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 10
+
+====
+Id: 5
+ExeStack:
+[wH(v, 30), Print(rH(v))]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 10
+
+====
+Id: 6
+ExeStack:
+[wH(v, 20), Print(Child wrote 20)]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 10
+
+====
+Id: 5
+ExeStack:
+[Print(rH(v))]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 20
+
+====
+Id: 6
+ExeStack:
+[Print(Child wrote 20)]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 20
+
+====
+Id: 5
+ExeStack:
+[Print(rH(v))]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 20
+
+====
+Id: 6
+ExeStack:
+[Print(Child wrote 20)]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 20
+
+====
+Id: 5
+ExeStack:
+[]
+SymTable:
+{v=(1,int)}
+Out:
+[Child wrote 20, 20]
+FileTable:
+{}
+Heap:
+1 -> 20
+
+====
+Id: 6
+ExeStack:
+[]
+SymTable:
+{v=(1,int)}
+Out:
+[Child wrote 20, 20]
+FileTable:
+{}
+Heap:
+1 -> 20
+
+====

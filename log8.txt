@@ -1,0 +1,286 @@
+Id: 6
+ExeStack:
+[Ref(int) v; new(v, 20); Ref(Ref(int)) a; new(a, v); print(v); print(a)]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 6
+ExeStack:
+[Ref(int) v, new(v, 20); Ref(Ref(int)) a; new(a, v); print(v); print(a)]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 6
+ExeStack:
+[Ref(int) v, new(v, 20); Ref(Ref(int)) a; new(a, v); print(v); print(a)]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 6
+ExeStack:
+[new(v, 20); Ref(Ref(int)) a; new(a, v); print(v); print(a)]
+SymTable:
+{v=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 6
+ExeStack:
+[new(v, 20); Ref(Ref(int)) a; new(a, v); print(v); print(a)]
+SymTable:
+{v=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 6
+ExeStack:
+[new(v, 20), Ref(Ref(int)) a; new(a, v); print(v); print(a)]
+SymTable:
+{v=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 6
+ExeStack:
+[new(v, 20), Ref(Ref(int)) a; new(a, v); print(v); print(a)]
+SymTable:
+{v=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 6
+ExeStack:
+[Ref(Ref(int)) a; new(a, v); print(v); print(a)]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 20
+
+====
+Id: 6
+ExeStack:
+[Ref(Ref(int)) a; new(a, v); print(v); print(a)]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 20
+
+====
+Id: 6
+ExeStack:
+[Ref(Ref(int)) a, new(a, v); print(v); print(a)]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 20
+
+====
+Id: 6
+ExeStack:
+[Ref(Ref(int)) a, new(a, v); print(v); print(a)]
+SymTable:
+{v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 20
+
+====
+Id: 6
+ExeStack:
+[new(a, v); print(v); print(a)]
+SymTable:
+{a=(0,Ref(int)), v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 20
+
+====
+Id: 6
+ExeStack:
+[new(a, v); print(v); print(a)]
+SymTable:
+{a=(0,Ref(int)), v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 20
+
+====
+Id: 6
+ExeStack:
+[new(a, v), print(v); print(a)]
+SymTable:
+{a=(0,Ref(int)), v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 20
+
+====
+Id: 6
+ExeStack:
+[new(a, v), print(v); print(a)]
+SymTable:
+{a=(0,Ref(int)), v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 20
+
+====
+Id: 6
+ExeStack:
+[print(v); print(a)]
+SymTable:
+{a=(2,Ref(int)), v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> (1,int)
+
+====
+Id: 6
+ExeStack:
+[print(v); print(a)]
+SymTable:
+{a=(2,Ref(int)), v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> (1,int)
+
+====
+Id: 6
+ExeStack:
+[print(v), print(a)]
+SymTable:
+{a=(2,Ref(int)), v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> (1,int)
+
+====
+Id: 6
+ExeStack:
+[print(v), print(a)]
+SymTable:
+{a=(2,Ref(int)), v=(1,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> (1,int)
+
+====
+Id: 6
+ExeStack:
+[print(a)]
+SymTable:
+{a=(2,Ref(int)), v=(1,int)}
+Out:
+[(1,int)]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> (1,int)
+
+====
+Id: 6
+ExeStack:
+[print(a)]
+SymTable:
+{a=(2,Ref(int)), v=(1,int)}
+Out:
+[(1,int)]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> (1,int)
+
+====
+Id: 6
+ExeStack:
+[]
+SymTable:
+{a=(2,Ref(int)), v=(1,int)}
+Out:
+[(1,int), (2,Ref(int))]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> (1,int)
+
+====

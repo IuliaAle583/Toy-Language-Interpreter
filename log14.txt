@@ -1,0 +1,1809 @@
+Id: 1
+ExeStack:
+[Ref(int) v1; Ref(int) v2; Ref(int) v3; int id; id = 5; new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[Ref(int) v1, Ref(int) v2; Ref(int) v3; int id; id = 5; new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[Ref(int) v1, Ref(int) v2; Ref(int) v3; int id; id = 5; new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[Ref(int) v2; Ref(int) v3; int id; id = 5; new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[Ref(int) v2; Ref(int) v3; int id; id = 5; new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[Ref(int) v2, Ref(int) v3; int id; id = 5; new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[Ref(int) v2, Ref(int) v3; int id; id = 5; new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[Ref(int) v3; int id; id = 5; new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int), v2=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[Ref(int) v3; int id; id = 5; new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int), v2=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[Ref(int) v3, int id; id = 5; new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int), v2=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[Ref(int) v3, int id; id = 5; new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int), v2=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[int id; id = 5; new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int), v2=(0,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[int id; id = 5; new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int), v2=(0,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[int id, id = 5; new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int), v2=(0,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[int id, id = 5; new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int), v2=(0,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[id = 5; new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int), id=0, v2=(0,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[id = 5; new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int), id=0, v2=(0,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[id = 5, new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int), id=0, v2=(0,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[id = 5, new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int), id=0, v2=(0,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int), id=5, v2=(0,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[new(v1, 2); new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int), id=5, v2=(0,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[new(v1, 2), new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int), id=5, v2=(0,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[new(v1, 2), new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(0,int), id=5, v2=(0,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=5, v2=(0,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[new(v2, 3); new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=5, v2=(0,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[new(v2, 3), new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=5, v2=(0,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[new(v2, 3), new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=5, v2=(0,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=5, v2=(2,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[new(v3, 4); newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=5, v2=(2,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[new(v3, 4), newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=5, v2=(2,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[new(v3, 4), newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=5, v2=(2,int), v3=(0,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=5, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[newBarrier(id, rH(v2)); fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=5, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[newBarrier(id, rH(v2)), fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=5, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[newBarrier(id, rH(v2)), fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=5, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, []); }
+
+====
+Id: 1
+ExeStack:
+[fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))); fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, []); }
+
+====
+Id: 1
+ExeStack:
+[fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))), fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, []); }
+
+====
+Id: 1
+ExeStack:
+[fork(await(id); wH(v1, rH(v1) * 10); print(rH(v1))), fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, []); }
+
+====
+Id: 1
+ExeStack:
+[fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, []); }
+
+====
+Id: 2
+ExeStack:
+[await(id); wH(v1, rH(v1) * 10); print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, []); }
+
+====
+Id: 1
+ExeStack:
+[fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))); fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, []); }
+
+====
+Id: 2
+ExeStack:
+[await(id); wH(v1, rH(v1) * 10); print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, []); }
+
+====
+Id: 1
+ExeStack:
+[fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))), fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, []); }
+
+====
+Id: 2
+ExeStack:
+[await(id), wH(v1, rH(v1) * 10); print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, []); }
+
+====
+Id: 1
+ExeStack:
+[fork(await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))), fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, []); }
+
+====
+Id: 2
+ExeStack:
+[await(id), wH(v1, rH(v1) * 10); print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, []); }
+
+====
+Id: 1
+ExeStack:
+[fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2]); }
+
+====
+Id: 2
+ExeStack:
+[await(id), wH(v1, rH(v1) * 10); print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2]); }
+
+====
+Id: 3
+ExeStack:
+[await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2]); }
+
+====
+Id: 1
+ExeStack:
+[fork(await(id); print(rH(v3) * 40)); print(rH(v3))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2]); }
+
+====
+Id: 2
+ExeStack:
+[await(id), wH(v1, rH(v1) * 10); print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2]); }
+
+====
+Id: 3
+ExeStack:
+[await(id); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2]); }
+
+====
+Id: 1
+ExeStack:
+[fork(await(id); print(rH(v3) * 40)), print(rH(v3))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2]); }
+
+====
+Id: 2
+ExeStack:
+[await(id), wH(v1, rH(v1) * 10); print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2]); }
+
+====
+Id: 3
+ExeStack:
+[await(id), wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2]); }
+
+====
+Id: 1
+ExeStack:
+[fork(await(id); print(rH(v3) * 40)), print(rH(v3))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2]); }
+
+====
+Id: 2
+ExeStack:
+[await(id), wH(v1, rH(v1) * 10); print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2]); }
+
+====
+Id: 3
+ExeStack:
+[await(id), wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2]); }
+
+====
+Id: 1
+ExeStack:
+[print(rH(v3))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3]); }
+
+====
+Id: 2
+ExeStack:
+[await(id), wH(v1, rH(v1) * 10); print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3]); }
+
+====
+Id: 3
+ExeStack:
+[await(id), wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3]); }
+
+====
+Id: 4
+ExeStack:
+[await(id); print(rH(v3) * 40)]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3]); }
+
+====
+Id: 1
+ExeStack:
+[print(rH(v3))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3]); }
+
+====
+Id: 2
+ExeStack:
+[await(id), wH(v1, rH(v1) * 10); print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3]); }
+
+====
+Id: 3
+ExeStack:
+[await(id), wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3]); }
+
+====
+Id: 4
+ExeStack:
+[await(id); print(rH(v3) * 40)]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3]); }
+
+====
+Id: 1
+ExeStack:
+[]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3]); }
+
+====
+Id: 2
+ExeStack:
+[await(id), wH(v1, rH(v1) * 10); print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3]); }
+
+====
+Id: 3
+ExeStack:
+[await(id), wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3]); }
+
+====
+Id: 4
+ExeStack:
+[await(id), print(rH(v3) * 40)]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3]); }
+
+====
+Id: 2
+ExeStack:
+[await(id), wH(v1, rH(v1) * 10); print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3]); }
+
+====
+Id: 3
+ExeStack:
+[await(id), wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3]); }
+
+====
+Id: 4
+ExeStack:
+[await(id), print(rH(v3) * 40)]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3]); }
+
+====
+Id: 2
+ExeStack:
+[await(id), wH(v1, rH(v1) * 10); print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 3
+ExeStack:
+[await(id), wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 4
+ExeStack:
+[await(id), print(rH(v3) * 40)]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 2
+ExeStack:
+[await(id), wH(v1, rH(v1) * 10); print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 3
+ExeStack:
+[await(id), wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 4
+ExeStack:
+[await(id), print(rH(v3) * 40)]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 2
+ExeStack:
+[wH(v1, rH(v1) * 10); print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 3
+ExeStack:
+[wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 4
+ExeStack:
+[print(rH(v3) * 40)]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 2
+ExeStack:
+[wH(v1, rH(v1) * 10); print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 3
+ExeStack:
+[wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 4
+ExeStack:
+[print(rH(v3) * 40)]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 2
+ExeStack:
+[wH(v1, rH(v1) * 10), print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4, 160]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 3
+ExeStack:
+[wH(v2, rH(v2) * 10), wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4, 160]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 4
+ExeStack:
+[]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4, 160]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 2
+ExeStack:
+[wH(v1, rH(v1) * 10), print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4, 160]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 3
+ExeStack:
+[wH(v2, rH(v2) * 10), wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4, 160]
+FileTable:
+{}
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 2
+ExeStack:
+[print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4, 160]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 3
+ExeStack:
+[wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4, 160]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 2
+ExeStack:
+[print(rH(v1))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4, 160]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 3
+ExeStack:
+[wH(v2, rH(v2) * 10); wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4, 160]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 2
+ExeStack:
+[]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4, 160, 20]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 3
+ExeStack:
+[wH(v2, rH(v2) * 10), wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4, 160, 20]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 3
+ExeStack:
+[wH(v2, rH(v2) * 10), wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4, 160, 20]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 3
+ExeStack:
+[wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4, 160, 20]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> 300
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 3
+ExeStack:
+[wH(v2, rH(v2) * 10); print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4, 160, 20]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> 300
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 3
+ExeStack:
+[wH(v2, rH(v2) * 10), print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4, 160, 20]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> 300
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 3
+ExeStack:
+[wH(v2, rH(v2) * 10), print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4, 160, 20]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> 300
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 3
+ExeStack:
+[print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4, 160, 20]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> 3000
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 3
+ExeStack:
+[print(rH(v2))]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4, 160, 20]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> 3000
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====
+Id: 3
+ExeStack:
+[]
+SymTable:
+{v1=(1,int), id=1, v2=(2,int), v3=(3,int)}
+Out:
+[4, 160, 20, 3000]
+FileTable:
+{}
+Heap:
+1 -> 20
+2 -> 3000
+3 -> 4
+
+BarrierTable:
+{1 -> (3, [2, 3, 4]); }
+
+====

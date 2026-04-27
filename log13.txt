@@ -1,0 +1,1065 @@
+Id: 1
+ExeStack:
+[int v; int x; v = 3; x = 2; repeat (fork(print(v); x = x - 1; print(x)); v = v + 1) as (v == 0); NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[int v, int x; v = 3; x = 2; repeat (fork(print(v); x = x - 1; print(x)); v = v + 1) as (v == 0); NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[int v, int x; v = 3; x = 2; repeat (fork(print(v); x = x - 1; print(x)); v = v + 1) as (v == 0); NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[int x; v = 3; x = 2; repeat (fork(print(v); x = x - 1; print(x)); v = v + 1) as (v == 0); NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[int x; v = 3; x = 2; repeat (fork(print(v); x = x - 1; print(x)); v = v + 1) as (v == 0); NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[int x, v = 3; x = 2; repeat (fork(print(v); x = x - 1; print(x)); v = v + 1) as (v == 0); NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[int x, v = 3; x = 2; repeat (fork(print(v); x = x - 1; print(x)); v = v + 1) as (v == 0); NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[v = 3; x = 2; repeat (fork(print(v); x = x - 1; print(x)); v = v + 1) as (v == 0); NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=0, x=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[v = 3; x = 2; repeat (fork(print(v); x = x - 1; print(x)); v = v + 1) as (v == 0); NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=0, x=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[v = 3, x = 2; repeat (fork(print(v); x = x - 1; print(x)); v = v + 1) as (v == 0); NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=0, x=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[v = 3, x = 2; repeat (fork(print(v); x = x - 1; print(x)); v = v + 1) as (v == 0); NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=0, x=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[x = 2; repeat (fork(print(v); x = x - 1; print(x)); v = v + 1) as (v == 0); NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=3, x=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[x = 2; repeat (fork(print(v); x = x - 1; print(x)); v = v + 1) as (v == 0); NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=3, x=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[x = 2, repeat (fork(print(v); x = x - 1; print(x)); v = v + 1) as (v == 0); NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=3, x=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[x = 2, repeat (fork(print(v); x = x - 1; print(x)); v = v + 1) as (v == 0); NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=3, x=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[repeat (fork(print(v); x = x - 1; print(x)); v = v + 1) as (v == 0); NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=3, x=2}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[repeat (fork(print(v); x = x - 1; print(x)); v = v + 1) as (v == 0); NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=3, x=2}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[repeat (fork(print(v); x = x - 1; print(x)); v = v + 1) as (v == 0), NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=3, x=2}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[repeat (fork(print(v); x = x - 1; print(x)); v = v + 1) as (v == 0), NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=3, x=2}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[fork(print(v); x = x - 1; print(x)); v = v + 1; while(v == 0) fork(print(v); x = x - 1; print(x)); v = v + 1, NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=3, x=2}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[fork(print(v); x = x - 1; print(x)); v = v + 1; while(v == 0) fork(print(v); x = x - 1; print(x)); v = v + 1, NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=3, x=2}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[fork(print(v); x = x - 1; print(x)); v = v + 1, while(v == 0) fork(print(v); x = x - 1; print(x)); v = v + 1, NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=3, x=2}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[fork(print(v); x = x - 1; print(x)); v = v + 1, while(v == 0) fork(print(v); x = x - 1; print(x)); v = v + 1, NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=3, x=2}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[fork(print(v); x = x - 1; print(x)), v = v + 1, while(v == 0) fork(print(v); x = x - 1; print(x)); v = v + 1, NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=3, x=2}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[fork(print(v); x = x - 1; print(x)), v = v + 1, while(v == 0) fork(print(v); x = x - 1; print(x)); v = v + 1, NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=3, x=2}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[v = v + 1, while(v == 0) fork(print(v); x = x - 1; print(x)); v = v + 1, NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=3, x=2}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 2
+ExeStack:
+[print(v); x = x - 1; print(x)]
+SymTable:
+{x=2, v=3}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[v = v + 1, while(v == 0) fork(print(v); x = x - 1; print(x)); v = v + 1, NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=3, x=2}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 2
+ExeStack:
+[print(v); x = x - 1; print(x)]
+SymTable:
+{x=2, v=3}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[while(v == 0) fork(print(v); x = x - 1; print(x)); v = v + 1, NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 2
+ExeStack:
+[print(v), x = x - 1; print(x)]
+SymTable:
+{x=2, v=3}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[while(v == 0) fork(print(v); x = x - 1; print(x)); v = v + 1, NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 2
+ExeStack:
+[print(v), x = x - 1; print(x)]
+SymTable:
+{x=2, v=3}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 2
+ExeStack:
+[x = x - 1; print(x)]
+SymTable:
+{x=2, v=3}
+Out:
+[3]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 2
+ExeStack:
+[x = x - 1; print(x)]
+SymTable:
+{x=2, v=3}
+Out:
+[3]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp, NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 2
+ExeStack:
+[x = x - 1, print(x)]
+SymTable:
+{x=2, v=3}
+Out:
+[3]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp, NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 2
+ExeStack:
+[x = x - 1, print(x)]
+SymTable:
+{x=2, v=3}
+Out:
+[3]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 2
+ExeStack:
+[print(x)]
+SymTable:
+{x=1, v=3}
+Out:
+[3]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp; NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 2
+ExeStack:
+[print(x)]
+SymTable:
+{x=1, v=3}
+Out:
+[3]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp, NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 2
+ExeStack:
+[]
+SymTable:
+{x=1, v=3}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp, NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp; NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp, NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp, NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp; NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp, NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp, NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp; NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp, NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp, NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp; NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp, NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp, NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp; print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp, print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[NoOp, print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[print(x)]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====
+Id: 1
+ExeStack:
+[]
+SymTable:
+{v=4, x=2}
+Out:
+[3, 1, 2]
+FileTable:
+{}
+Heap:
+
+BarrierTable:
+{}
+
+====

@@ -1,0 +1,216 @@
+Id: 1
+ExeStack:
+[int a; int b; a = 2 + 3 * 5; b = a - 4 / 2 + 7; print(b)]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 1
+ExeStack:
+[int a, int b; a = 2 + 3 * 5; b = a - 4 / 2 + 7; print(b)]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 1
+ExeStack:
+[int a, int b; a = 2 + 3 * 5; b = a - 4 / 2 + 7; print(b)]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 1
+ExeStack:
+[int b; a = 2 + 3 * 5; b = a - 4 / 2 + 7; print(b)]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 1
+ExeStack:
+[int b; a = 2 + 3 * 5; b = a - 4 / 2 + 7; print(b)]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 1
+ExeStack:
+[int b, a = 2 + 3 * 5; b = a - 4 / 2 + 7; print(b)]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 1
+ExeStack:
+[int b, a = 2 + 3 * 5; b = a - 4 / 2 + 7; print(b)]
+SymTable:
+{a=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 1
+ExeStack:
+[a = 2 + 3 * 5; b = a - 4 / 2 + 7; print(b)]
+SymTable:
+{a=0, b=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 1
+ExeStack:
+[a = 2 + 3 * 5; b = a - 4 / 2 + 7; print(b)]
+SymTable:
+{a=0, b=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 1
+ExeStack:
+[a = 2 + 3 * 5, b = a - 4 / 2 + 7; print(b)]
+SymTable:
+{a=0, b=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 1
+ExeStack:
+[a = 2 + 3 * 5, b = a - 4 / 2 + 7; print(b)]
+SymTable:
+{a=0, b=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 1
+ExeStack:
+[b = a - 4 / 2 + 7; print(b)]
+SymTable:
+{a=17, b=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 1
+ExeStack:
+[b = a - 4 / 2 + 7; print(b)]
+SymTable:
+{a=17, b=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 1
+ExeStack:
+[b = a - 4 / 2 + 7, print(b)]
+SymTable:
+{a=17, b=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 1
+ExeStack:
+[b = a - 4 / 2 + 7, print(b)]
+SymTable:
+{a=17, b=0}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 1
+ExeStack:
+[print(b)]
+SymTable:
+{a=17, b=22}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 1
+ExeStack:
+[print(b)]
+SymTable:
+{a=17, b=22}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 1
+ExeStack:
+[]
+SymTable:
+{a=17, b=22}
+Out:
+[22]
+FileTable:
+{}
+Heap:
+
+====

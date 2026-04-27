@@ -1,0 +1,72 @@
+Id: 5
+ExeStack:
+[bool flag; flag = 42]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 5
+ExeStack:
+[bool flag, flag = 42]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 5
+ExeStack:
+[bool flag, flag = 42]
+SymTable:
+{}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 5
+ExeStack:
+[flag = 42]
+SymTable:
+{flag=false}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 5
+ExeStack:
+[flag = 42]
+SymTable:
+{flag=false}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
+Id: 5
+ExeStack:
+[]
+SymTable:
+{flag=false}
+Out:
+[]
+FileTable:
+{}
+Heap:
+
+====
